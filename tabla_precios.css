@@ -1,0 +1,51 @@
+.content {
+    margin: 0 auto;
+    width: 90%;
+    font-family: Poppins;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.column {
+    background:rgb(207, 205, 205);
+    color: black;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: -5px -5px 10px #888;
+    width: 23%;
+    box-sizing: border-box;
+}
+.price {
+    font-size: 50px;
+    color: rgb(39, 36, 226);
+}
+
+.buy_button {
+    display: block;
+    background: rgb(79, 168, 228);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.buy_button:hover {
+    background: rgb(32, 155, 236);
+}
+
+@media (max-width: 1150px) {
+    .column {
+        width: 45%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
